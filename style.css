@@ -10,16 +10,16 @@ body{
     background-color: #ccccccb4;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     user-select: none;
     position: relative;
+    gap: 20px;
 }
 
 h2{
-    position: absolute;
-    top: 3dvh;
     font-size: 29px;
-    /* font-weight: 400; */
+    position: relative;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h2::after{
