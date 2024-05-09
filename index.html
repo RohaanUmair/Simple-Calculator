@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Simple Calculator</h2>
+    <div class="main">
+        <h1></h1>
+
+        <input type="text" readonly>
+
+        <div class="keys">
+            <button onclick="clearDisplay()" id="AC" class="blue">AC</button>
+            <button onclick="removeLastNum()" class="blue">Del</button>
+            <button onclick="addToDisplay('/')" class="blue">/</button>
+            
+            <button onclick="addToDisplay('7')">7</button>
+            <button onclick="addToDisplay('8')">8</button>
+            <button onclick="addToDisplay('9')">9</button>
+            <button onclick="addToDisplay('*')" class="blue">*</button>
+            
+            <button onclick="addToDisplay('4')">4</button>
+            <button onclick="addToDisplay('5')">5</button>
+            <button onclick="addToDisplay('6')">6</button>
+            <button onclick="addToDisplay('-')" class="blue">-</button>
+            
+            <button onclick="addToDisplay('1')">1</button>
+            <button onclick="addToDisplay('2')">2</button>
+            <button onclick="addToDisplay('3')">3</button>
+            <button onclick="addToDisplay('+')" class="blue">+</button>
+            
+            <button onclick="addToDisplay('.')">.</button>
+            <button onclick="addToDisplay('0')">0</button>
+            <button onclick="calculate()" id="AC" class="blue">=</button>
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
